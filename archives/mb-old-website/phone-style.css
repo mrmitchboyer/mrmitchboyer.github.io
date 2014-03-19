@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+    #header {
+        background-color:#900;
+    }
+    
+    #portfolio {
+        float:none;
+    }
+
