@@ -1,8 +1,8 @@
 /* MITCHBOYER.COM CSS */
 
 body {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
     width:100%;
     height:100%;
     font-family: 'Open Sans', 'Gotham,' "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -15,19 +15,6 @@ h2 {
     margin:0;
     padding:0;
 }
-
-.social-buttons img {
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-	opacity:.9;
-}
-
-.social-buttons img:hover {
-	box-shadow: 0 0 5px 5px #000;
-}
-
 
 #wrapper {
     width:100%;
@@ -48,17 +35,17 @@ h2 {
     background-image:url('images/mb_logo.png');
     background-size:400px 70px;
     background-repeat:no-repeat;
-	z-index: 0;
+    z-index: 0;
 }
 
 #header a {
     color:#000;
     font-weight:300;
     -o-transition:.25s;
-  	-ms-transition:.25s;
-	-moz-transition:.25s;
-	-webkit-transition:.25s;
-  	transition:.25s;
+    -ms-transition:.25s;
+    -moz-transition:.25s;
+    -webkit-transition:.25s;
+    transition:.25s;
 }
 
 #header a:hover {
@@ -66,18 +53,25 @@ h2 {
     font-weight:300;
 }
 
-#intro {
-	margin:0 auto;
-	width:700px;
-	height:250px;
-	
+#footer {
+    text-align:center;
+    font-size:12px;
+    overflow:hidden;
+    margin:0 auto;
+    padding-top:10px;
+    width:100%;
 }
 
-
+#intro {
+    margin:0 auto;
+    width:700px;
+    height:250px;
+    
+}
 
 #social {
     text-align:center;
-	padding:100px 0;
+    padding:100px 0;
 }
 
 /* PORTFOLIO ITEMS */
@@ -117,10 +111,10 @@ h2 {
     text-align:center;
     padding:10px 20px;
     -o-transition:.25s;
-  	-ms-transition:.25s;
-	-moz-transition:.25s;
-	-webkit-transition:.25s;
-  	transition:.25s;
+    -ms-transition:.25s;
+    -moz-transition:.25s;
+    -webkit-transition:.25s;
+    transition:.25s;
 }
 
 .about-text {
@@ -141,10 +135,10 @@ h2 {
     color:#333;
     font-weight:300;
     -o-transition:.25s;
-  	-ms-transition:.25s;
-	-moz-transition:.25s;
-	-webkit-transition:.25s;
-  	transition:.25s;
+    -ms-transition:.25s;
+    -moz-transition:.25s;
+    -webkit-transition:.25s;
+    transition:.25s;
 }
 
 .about-text a:hover {
@@ -159,8 +153,17 @@ h2 {
 
 /* PORTFOLIO PICS */
 
-.fyfrj-pic {
-    background:url(images/fyfrj2.jpg) no-repeat center center;
+.swear-jar-pic {
+    background:url(images/subway.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    clear:both;
+}
+
+.whatsbetter-pic {
+    background:url(images/whatsbetter.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -204,31 +207,11 @@ h2 {
     clear:both;
 }
 
-
-    
 .social-buttons {
-	width:40px;
-	height:40px;
-	padding:0 5px 20px;
+    width:40px;
+    height:40px;
+    padding:0 5px 20px;
     opacity:.8;
-    -o-transition:.25s;
-  	-ms-transition:.25s;
-	-moz-transition:.25s;
-	-webkit-transition:.25s;
-  	transition:.25s;
-}
-
-.social-buttons:hover {
-	opacity:1;
-}
-
-#footer {
-	text-align:center;
-	font-size:12px;
-	overflow:hidden;
-    margin:0 auto;
-    padding-top:10px;
-    width:100%;
 }
 
 
