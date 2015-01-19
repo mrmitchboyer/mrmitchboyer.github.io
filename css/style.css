@@ -1,0 +1,269 @@
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400);
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height:100%;
+  font-family: "Libre Baskerville", "Times New Roman", Serif;
+  color: #fff;
+  text-align: center;
+  background: black;
+}
+
+/* FONTS */
+
+h1 {
+  font-weight: 100;
+  font-size: 72px;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 12px;
+  letter-spacing: 4px;
+}
+
+h2.job-titles {
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:focus {
+  color: #fff;
+  border: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* PORTFOLIO ITEMS */
+
+.item {
+  width:100%;
+  height: 100%;
+  position: absolute;
+
+  /*FONT STUFF*/
+  letter-spacing: 8px;
+  line-height: 36px;
+  text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 2px;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+}
+
+.item-wrapper {
+  height:100%;
+  width:100%;
+  background: rgba(0,0,0,0.6);
+  overflow: hidden;
+}
+
+.item-text {
+  height: 300px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin:0 auto;
+}
+
+
+/* PORTFOLIO PICS */
+
+.subway-pic {
+  background:url(../images/subway.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.moira-pic {
+  background:url(../images/moira.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.young-love-pic {
+  background:url(../images/young-love.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.design-reel-pic {
+  background:url('../images/reel.webp') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.photography-pic {
+  background:url('../images/photofolio2.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.swearjar-pic {
+  background:url('../images/fyfrj2.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.whatsbetter-pic {
+  background:url('../images/whatsbetter.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.resume-pic {
+  background:url('../images/resume.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ul.social li,
+ul.social li a {
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: 10px;
+    line-height: 18px;
+    font-weight: 200;
+    transition: all .2s ease-in-out;
+}
+ul.social li { 
+  padding: 0px 20px 0px 0px 
+}
+
+li a:hover { 
+  transform: scale(1.2) 
+}
+
+
+/* MODALS */
+
+.modal-content {
+  width: 80%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 0;
+  background: rgba(0,0,0,0.95);
+  min-height: 100%;
+
+  text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 2px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.bgpic {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: -136px;
+  transition: all .2s ease-in-out;
+}
+
+.bgshade {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.9);
+  left: 0;
+  top: 0;
+}
+
+.modal-item:hover .bgpic{ 
+  transform: scale(1.1);
+}
+
+.modal-item:hover .bgshade {
+  background-color: rgba(0,0,0,0.5);
+}
+.modal-item {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.modal-item-text {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin:0 auto;
+  z-index: 1000;
+}
+
+.modal-item h2 {
+  text-transform: uppercase;
+  font-size: 34px;
+}
+
+.modal-item h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 0;
+}
+
+.modal-line {
+  background: #fff;
+  height: 1px;
+  width: 230px;
+  margin: 0 auto 15px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 2px;
+}
+
+a.modal-big-link:hover,
+a.modal-big-link:active,
+a.modal-big-link:visited {
+  text-decoration: none;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+/* PHONE */
+
+@media screen and (max-width:480px) {
+
+  .modal-content {
+    width: 90%;
+  }
+  h1 {
+    font-size: 36px;
+    letter-spacing: 4px;
+  }
+
+  h2 {
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 0px !important;
+  }
+
+  .item-text {
+    height: 170px;
+  }
+
+  .bgpic {
+    margin-top: -176px;
+  }
+
+}
