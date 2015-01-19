@@ -275,7 +275,7 @@ a.modal-big-link:visited {
   }
 
   .modal-item {
-    height: 400px;
+    height: auto;
   }
 
   .modal-item-text {
@@ -284,7 +284,7 @@ a.modal-big-link:visited {
   }
 
   .bgshade {
-  background-color: rgba(0,0,0,0.7);
+  background-color: black;
   }
 
 }
