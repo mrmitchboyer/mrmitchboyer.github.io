@@ -140,6 +140,14 @@ a:hover {
   background-size: cover;
 }
 
+.drawing-pic {
+  background:url('../images/line.png') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 ul.social li,
 ul.social li a {
     display: inline-block;
