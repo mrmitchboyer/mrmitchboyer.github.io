@@ -279,4 +279,8 @@ a.modal-big-link:visited {
     top: 0;
   }
 
+  .bgshade {
+  background-color: rgba(0,0,0,0.7);
+  }
+
 }
