@@ -274,17 +274,13 @@ a.modal-big-link:visited {
     margin-top: -176px;
   }
 
-  .modal-item {
-    height: auto;
-  }
-
   .modal-item-text {
     position: relative;
     top: 0;
   }
 
   .bgshade {
-  background-color: black;
+  background-color: rgba(0,0,0,0.7);
   }
 
 }
