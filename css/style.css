@@ -274,6 +274,10 @@ a.modal-big-link:visited {
     margin-top: -176px;
   }
 
+  .modal-item {
+    height: 200px;
+  }
+
   .modal-item-text {
     position: relative;
     top: 0;
