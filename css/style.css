@@ -116,6 +116,14 @@ a:hover {
   background-size: cover;
 }
 
+.design-pic {
+  background:url('../images/utah.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .design-reel-pic {
   background:url('../images/reel.webp') no-repeat center center; 
   -webkit-background-size: cover;
