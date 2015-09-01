@@ -47,6 +47,7 @@ h2, h3, h4 {
 
 a {
   color: #fff;
+  font-style: italic !important;
   height: 0 !important;
   line-height: 0px !important;
 }
