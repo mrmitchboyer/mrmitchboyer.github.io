@@ -20,6 +20,7 @@ footer {
   opacity: 0.9;
 
   /*TEXT */
+  text-align: center;
   letter-spacing: 4px;
   text-transform: uppercase;
   -webkit-font-smoothing: antialiased;
