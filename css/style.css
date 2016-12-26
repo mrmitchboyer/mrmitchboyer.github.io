@@ -26,13 +26,12 @@ strong {
 }
 
 img {
-  min-width: 100%;
-  min-height: 100%
+  max-width: 60%;
 }
 
-.container-border {
+/*.container-border {
   border-top: 15px solid #cecece;
-}
+}*/
 
 .no-padding {
   min-height: 100%;
