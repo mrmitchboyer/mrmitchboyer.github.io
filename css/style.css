@@ -73,3 +73,9 @@ span {
   color: white;
   background-color: rgba(0,0,0,.1)
 }
+
+@media only screen and (max-device-width : 500px) {
+  .info {
+    text-align: center;
+  }
+}
