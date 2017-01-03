@@ -31,11 +31,11 @@ a:hover {
 }
 
 a:visited {
-  color: #f6eeea;
+  color: #f6eeea !important;
 }
 
 a:active {
-  color: #f6eeea;
+  color: #f6eeea !important;
 }
 
 h1 a:hover {
