@@ -1,49 +1,67 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text');
 
-body {
-  background-color: #f9f9f9;
-  height:100vh;
+.full {
+  background: url(../img/mitch-eating-pizza.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-h1, h2, h3, h4, p, body {
+h1, h2, h3, h4, p, body, small {
   font-family: 'Crimson Text', serif;
-  font-weight: bold;
+  font-weight: normal !important;
+  letter-spacing: .01em;
+  color: #f6eeea !important;
+}
+
+small {
+  font-size: 75% !important;
 }
 
 a {
-  color: #40aac5;
+  color: #f6eeea;
+  text-decoration: none;
+  position: relative;
 }
 
-
-p {
-  font-size: 1.2em;
-  font-weight: normal;
+a:hover {
+  text-decoration: none;
+  color: #8db4ce;
 }
 
-strong {
-  font-weight: 900 !important;
-  font-size: 1.2em;
+h1 a:hover {
+  color: #8db4ce;
 }
 
-img {
-  max-width: 60%;
+h1 a:after{
+  content: "";
+  border-bottom: 2px solid #f6eeea;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 3px;
 }
 
-/*.container-border {
-  border-top: 15px solid #cecece;
-}*/
-
-.no-padding {
-  min-height: 100%;
-  padding: 0;
+h1 a:hover:after{
+  content: "";
+  border-bottom: 2px solid #8db4ce;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 3px;
 }
 
-.text-padding {
-  padding: 10px 50px 0 50px;
+span {
+  opacity: .8;
 }
 
-.top10 { margin-top:10px; }
-.top20 { margin-top:20px; }
-.top30 { margin-top:30px; }
-.top40 { margin-top:40px; }
-.top50 { margin-top:50px; }
+.info {
+  position:fixed;
+  width:100%;
+  text-align: right;
+  padding:0 20px 20px 20px;
+  bottom: 0px;
+  color: white;
+  background-color: rgba(0,0,0,.1)
+}
