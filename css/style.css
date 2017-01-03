@@ -15,10 +15,6 @@ h1, h2, h3, h4, p, body, small {
   color: #f6eeea !important;
 }
 
-small {
-  font-size: 75% !important;
-}
-
 a {
   color: #f6eeea;
   text-decoration: none;
@@ -72,10 +68,4 @@ span {
   bottom: 0px;
   color: white;
   background-color: rgba(0,0,0,.1)
-}
-
-@media only screen and (max-device-width : 500px) {
-  .info {
-    text-align: center;
-  }
 }
