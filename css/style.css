@@ -30,6 +30,14 @@ a:hover {
   color: #8db4ce;
 }
 
+a:visited {
+  color: #f6eeea;
+}
+
+a:active {
+  color: #f6eeea;
+}
+
 h1 a:hover {
   color: #8db4ce;
 }
